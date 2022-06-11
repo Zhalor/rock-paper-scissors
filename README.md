@@ -1,1 +1,1 @@
-# rock-paper-scissors
+This project is a simple rock, paper, scissors game built with Javascript. The purpose is to practice basic  Javascript and problem solving skills.
