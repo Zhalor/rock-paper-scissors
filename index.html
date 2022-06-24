@@ -2,9 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <script src="./scripts.js"></script>
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-
+    <div id="container">
+      <p>Let's play Rock, Paper, Scissors!</p>
+      <div id="buttons">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+      </div>
+      <div id="score">
+        <ul>
+          <li>Win: <span id="win"></span></li>
+          <li>Lose: <span id="lose"></span></li>
+          <li>Tie: <span id="tie"></span></li>
+        </ul>
+      </div>
+    </div>
+  <script src="./scripts.js" defer></script>
   </body>
 </html>
